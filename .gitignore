@@ -26,11 +26,3 @@ hs_err_pid*
 ### Scala template
 
 
-.gitignore
-.idea/workspace.xml
-src/main/java/
-src/main/resources/dev/
-src/main/resources/prod/
-src/main/scala/cn/itcast/dmp/etl/
-src/main/scala/cn/itcast/dmp/trait/
-src/test/

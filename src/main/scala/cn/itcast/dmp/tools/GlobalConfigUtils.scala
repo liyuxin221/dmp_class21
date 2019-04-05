@@ -8,7 +8,7 @@ object GlobalConfigUtils {
   private val config: Config = ConfigFactory.load()
 
   /**
-spark.worker.timeout="500"
+  spark.worker.timeout="500"
 spark.rpc.askTimeout="600s"
 spark.network.timeout="600s"
 spark.cores.max="10"
@@ -28,9 +28,32 @@ spark.buffer.pageSize="8m"
   def sparkDriverAllowMutilpleContext=config.getString("spark.driver.allowMutilpleContext")
   def sparkSerializer=config.getString("spark.serializer")
   def sparkBufferPageSize=config.getString("spark.buffer.pageSize")
+  def sparkDebugMaxToStringFields=config.getString("spark.debug.maxToStringFields")
 
   //获取kudumaster的地址
   def kuduMaster=config.getString("kudu.master")
 
 
+  //获取json文件
+  def getDataPath=config.getString("data.path")
+
+  def geoLiteCityDat=config.getString("GeoLiteCityDat")
+
+  def IP_FILE=config.getString("qqwryDat")
+
+  def INSTALL_DIR=config.getString("installDir")
+
+  def odsPrefix=config.getString("ods.prefix")
+
+  //获取高德导航的key
+  def getKey=config.getString("key")
+
+  def appIDName=config.getString("appIDName")
+
+  def devicedic=config.getString("devicedic")
+
+  def impalaUrl=config.getString("impala.url")
+
+
 }
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="dmp_class21">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\Java\idea-workspace\bigdata21\dmp_class21\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>
